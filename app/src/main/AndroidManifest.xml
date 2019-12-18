@@ -8,14 +8,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+>>>>>>> 4f951e7a366885e84a9cc4425e27f7a6c62723c5
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
