@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 #Wed Dec 18 22:10:59 ICT 2019
+=======
+<<<<<<< HEAD
+#Wed Dec 18 21:53:06 ICT 2019
+base.0=E\:\\dayu\\randomdicer\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+=======
+#Wed Dec 18 21:52:26 ICT 2019
+>>>>>>> 9be62ed83de1f838e27f29d5c56a1ea258595845
 base.0=C\:\\Users\\gerry\\AndroidStudioProjects\\RandomDicer\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+>>>>>>> 4f951e7a366885e84a9cc4425e27f7a6c62723c5
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\gerry\\AndroidStudioProjects\\RandomDicer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=E\:\\dayu\\randomdicer\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

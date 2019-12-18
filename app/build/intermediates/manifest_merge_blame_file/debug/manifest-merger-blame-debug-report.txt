@@ -6,30 +6,60 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml
+8-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml
+9-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml
 10
 11    <application
+<<<<<<< HEAD
 11-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:5:5-27:19
+=======
+<<<<<<< HEAD
+11-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:5:5-19:19
+=======
+11-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:5:5-26:19
+>>>>>>> 4f951e7a366885e84a9cc4425e27f7a6c62723c5
+>>>>>>> 9be62ed83de1f838e27f29d5c56a1ea258595845
 12        android:allowBackup="true"
-12-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:6:9-35
+12-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.1] C:\Users\gerry\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.0.1] C:\Users\capung\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:7:9-43
+15-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:8:9-41
+16-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:9:9-54
+17-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
+<<<<<<< HEAD
+18-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.se.randomdicer.MainActivity" >
+21-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:12:19-47
+22            <intent-filter>
+22-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:13:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:14:17-69
+23-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:16:17-77
+25-->E:\dayu\randomdicer\app\src\main\AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28    </application>
+=======
 18-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:10:9-35
 19        android:theme="@style/Theme.AppCompat.NoActionBar" >
 19-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:11:9-59
 20        <activity android:name="com.se.randomdicer.RollActivity" />
 20-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:12:9-59
 20-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:12:19-47
+<<<<<<< HEAD
 21        <activity android:name="com.se.randomdicer.DiceSkinActivity" />
 21-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:13:9-54
 21-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:13:19-51
@@ -63,3 +93,31 @@
 35    </application>
 36
 37</manifest>
+=======
+21            <intent-filter>
+21-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:14:17-69
+22-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:16:17-77
+24-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity android:name="com.se.randomdicer.MainActivity" >
+27-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:19:9-21:20
+27-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:19:19-47
+28        </activity>
+>>>>>>> 4f951e7a366885e84a9cc4425e27f7a6c62723c5
+29
+30        <meta-data
+30-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:23:9-25:57
+31            android:name="preloaded_fonts"
+31-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:24:13-43
+32            android:resource="@array/preloaded_fonts" />
+32-->C:\Users\gerry\AndroidStudioProjects\RandomDicer\app\src\main\AndroidManifest.xml:25:13-54
+33    </application>
+34
+35</manifest>
+>>>>>>> 9be62ed83de1f838e27f29d5c56a1ea258595845
