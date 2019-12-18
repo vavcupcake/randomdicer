@@ -629,11 +629,17 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable dice1
+drawable dice1_
 drawable dice2
+drawable dice2_
 drawable dice3
+drawable dice3_
 drawable dice4
+drawable dice4_
 drawable dice5
+drawable dice5_
 drawable dice6
+drawable dice6_
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable notification_action_background
