@@ -149,6 +149,7 @@ public class SixDice {
             gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_LINEAR);
 
             GLUtils.texImage2D(GL10.GL_TEXTURE_2D, 0, bitmaps[side], 0);
+//          bitmaps[side].recycle();
         }
     }
 
