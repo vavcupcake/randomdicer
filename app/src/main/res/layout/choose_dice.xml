@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#59A990">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baumans"
+        android:text="HELLO"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="192dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/baumans"
+        android:text="Username !"
+        android:textAlignment="center"
+        android:textColor="#707070"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="129dp"
+        android:layout_height="101dp"
+        app:srcCompat="@drawable/dashboard_dice_6"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="124dp"
+        android:layout_height="112dp"
+        app:srcCompat="@drawable/dashboard_dice_12"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="114dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/dashboard_dice_8"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="187dp"
+        android:layout_height="37dp"
+        app:srcCompat="@drawable/dashboard_button_6"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="194dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/dashboard_button_8"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="189dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/dashboard_button_12"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="158dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/dashboard_button"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="668dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
