@@ -18,12 +18,12 @@ public class SixDice {
     private int sides = 6;
     private int f = 4;
     private int[] images = {
-            R.drawable.dice1,
-            R.drawable.dice2,
-            R.drawable.dice3,
-            R.drawable.dice4,
-            R.drawable.dice5,
-            R.drawable.dice6,
+//            R.drawable.dice1,
+//            R.drawable.dice2,
+//            R.drawable.dice3,
+//            R.drawable.dice4,
+//            R.drawable.dice5,
+//            R.drawable.dice6,
     };
     private int[] textures = new int[sides];
     private Bitmap[] bitmaps = new Bitmap[sides];
