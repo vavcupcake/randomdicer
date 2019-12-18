@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
@@ -23,9 +23,6 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-=======
 apply plugin: 'com.android.application'
 
 android {
@@ -54,5 +51,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
->>>>>>> 56a2eaa81e92736b07dcc50b2dfbdad3bef810a5
 }

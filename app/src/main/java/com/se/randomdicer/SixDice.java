@@ -18,12 +18,12 @@ public class SixDice {
     private int sides = 6;
     private int f = 4;
     private int[] images = {
-            R.drawable.dice1,
-            R.drawable.dice2,
-            R.drawable.dice3,
-            R.drawable.dice4,
-            R.drawable.dice5,
-            R.drawable.dice6
+            R.drawable.dice1_,
+            R.drawable.dice2_,
+            R.drawable.dice3_,
+            R.drawable.dice4_,
+            R.drawable.dice5_,
+            R.drawable.dice6_,
     };
     private int[] textures = new int[sides];
     private Bitmap[] bitmaps = new Bitmap[sides];
@@ -149,6 +149,7 @@ public class SixDice {
             gl.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_LINEAR);
 
             GLUtils.texImage2D(GL10.GL_TEXTURE_2D, 0, bitmaps[side], 0);
+            bitmaps[side].recycle();
         }
     }
 
