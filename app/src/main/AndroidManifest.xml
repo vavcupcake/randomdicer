@@ -19,17 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name=".MainActivity" />
-=======
-<<<<<<< HEAD
-=======
         <activity android:name=".MainActivity">
 
         </activity>
->>>>>>> 9be62ed83de1f838e27f29d5c56a1ea258595845
-
->>>>>>> 4f951e7a366885e84a9cc4425e27f7a6c62723c5
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

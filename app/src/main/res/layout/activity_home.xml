@@ -60,7 +60,7 @@
             android:hint="INSERT USERNAME"
             android:inputType="textPersonName"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textColorHint="#A8000000"
             android:textSize="40sp" />
 

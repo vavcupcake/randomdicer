@@ -15,7 +15,7 @@
         android:shadowColor="#FFFFFF"
         android:text="Randomdicer"
         android:textColor="#FFFFFF"
-        android:textSize="50"
+        android:textSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="98dp" />
@@ -24,7 +24,7 @@
         android:id="@+id/imageView2"
         android:layout_width="212dp"
         android:layout_height="229dp"
-        android:layout_marginTop="20"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
